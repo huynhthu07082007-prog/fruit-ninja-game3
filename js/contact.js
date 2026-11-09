@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const form=document.getElementById('contact-form');if(!form)return;form.addEventListener('submit',e=>{e.preventDefault();const msg=document.getElementById('form-message');msg.textContent='Cảm ơn bạn! Biểu mẫu minh họa đã được ghi nhận trên trang.';form.reset();});});
